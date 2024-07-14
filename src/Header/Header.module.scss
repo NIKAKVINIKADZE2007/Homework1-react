@@ -1,0 +1,21 @@
+.header {
+  background-color: #f55a5a;
+  width: 100%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .headerContent {
+    display: flex;
+    align-items: center;
+    max-width: 150px;
+    width: 100%;
+
+    .myTravelJurny {
+      color: white;
+      font-size: 14px;
+      margin-left: 7px;
+    }
+  }
+}

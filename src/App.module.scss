@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'inter';
+  src: url('./fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'inter', 'sans-serif';
+
+  .pageContent {
+    max-width: 550px;
+    width: 100%;
+    height: fit-content;
+  }
+}
