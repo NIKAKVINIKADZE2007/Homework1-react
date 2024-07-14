@@ -3,8 +3,6 @@ import React from 'react';
 import style from './Card.module.scss';
 
 const Card = (props) => {
-  console.log(props);
-
   return (
     <div key={'cards-container'} className={style.cardContainer}>
       {props.data.map((card) => {
